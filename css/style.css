@@ -1,6 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,6 +15,13 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
 .header-bg {
     background-color: #000;
     padding: 20px;
@@ -25,7 +33,6 @@ a {
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -90,4 +97,62 @@ a {
         padding: 8px 12px;
         font-size: 0.875rem;
     }
+}
+
+.introducao-bg {
+    background-color: #000;
+    color: #fff;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 80px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 4rem;
+    line-height: 1.125;
+}
+
+.introducao h1 span {
+    color:  #fb0;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.introducao a {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #320;
+    padding: 16px 32px;
+    border-radius: 5px;
+    background: linear-gradient(#FFBF00, #F2A50C);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+.introducao a:hover {
+    background: linear-gradient(#FFB60d, #e59317);
+}
+
+.introducao img {
+    border-radius: 4px;
 }
