@@ -2,6 +2,7 @@
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './global/header.css';
+@import './global/footer.css';
 
 /* Utilidades */
 @import './utilidades/componentes.css';
@@ -20,3 +21,6 @@
 
 /* Depoimento */
 @import './home/depoimento.css';
+
+/* Seguros */
+@import './seguros/seguros.css'
