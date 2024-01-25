@@ -7,5 +7,16 @@
 @import './utilidades/componentes.css';
 
 /* Home */
-@import './home/introducao.css'
+@import './home/introducao.css';
 
+/* Bicicletas */
+@import './bicicletas/bicicletas-lista.css';
+
+/* Tecnologia */
+@import './home/tecnologia.css';
+
+/* Parceiros */
+@import './home/parceiros.css';
+
+/* Depoimento */
+@import './home/depoimento.css';
