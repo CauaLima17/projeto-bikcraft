@@ -11,6 +11,10 @@
     padding-bottom: 60px;
 }
 
+#seguros .seguros {
+    padding-top: 0;
+}
+
 .seguros h2 {
     margin-bottom: 60px;
     grid-column: 1 / -1;
