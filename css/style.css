@@ -6,7 +6,7 @@
 @import './utilidades/componentes.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
-@import './utilidades/formulário.css';
+@import './utilidades/formulario.css';
 
 /* Home */
 @import './home/introducao.css';
@@ -37,7 +37,7 @@
 /* Contato */
 @import './contato/contato.css';
 @import './contato/lojas.css';
-@import './contato/formulario.css';
 
 /* Orçamento */
 @import './orcamento/orcamento.css';
+
